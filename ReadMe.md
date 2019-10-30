@@ -31,3 +31,8 @@ Code: 400 BAD REQUEST  
 
 Content: error message string
  
+## Sample Call
+
+https://www.customtechnologyltd.com/compareVersions.php?v1=2.0&v2=1.0.0
+
+returns "after"
