@@ -4,7 +4,7 @@ Compares 2 strings as version numbers and returns a string indicating if the fir
 
 ## URL
  https://www.customtechnologyltd.com/compareVersions.php 
-## Method: 
+## Method
 GET 
 ## URL Params
  Required: 
@@ -21,12 +21,12 @@ In the Semantic Versioning standard, major, minor and patch must all be present 
 
 ## Data Params
  None 
-## Success Response:
+## Success Response
 Code: 200  
 
 Content: “before”, “after” or “equal”
 
-## Error Response:
+## Error Response
 Code: 400 BAD REQUEST  
 
 Content: error message string
