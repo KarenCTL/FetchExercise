@@ -1,0 +1,92 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671
+{\fonttbl\f0\froman\fcharset0 Times-Bold;\f1\froman\fcharset0 Times-Roman;\f2\fmodern\fcharset0 Courier;
+\f3\fnil\fcharset0 LucidaGrande-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red0\green0\blue0;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\csgenericrgb\c100000\c100000\c100000;\csgray\c0\c0;
+}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid102\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid202\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid3}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}
+\margl1440\margr1440\vieww17180\viewh17220\viewkind0
+\deftab720
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\f0\b\fs36 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Version Compare\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf2 Compares 2 strings as version numbers and \cf0 \outl0\strokewidth0 returns a string indicating if the first string is before, after, or equal to the second string. \cf2 \outl0\strokewidth0 \strokec2  \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\sa240\partightenfactor0
+\ls1\ilvl0
+\f0\b \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 URL
+\f1\b0 \uc0\u8232 
+\f2 \cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 https://www.customtechnologyltd.com/\cf2 \cb4 \expnd0\expndtw0\kerning0
+compareVersions.php
+\f1 \cf2 \cb1 \outl0\strokewidth0 \strokec2 \uc0\u8232 \
+\ls1\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Method:
+\f1\b0 \uc0\u8232 
+\f2 GET
+\f1 \uc0\u8232 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\partightenfactor0
+\ls1\ilvl0
+\f0\b \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 URL Params
+\f1\b0 \uc0\u8232 
+\f0\b Required:
+\f1\b0 \uc0\u8232 
+\f2 \cf2 \outl0\strokewidth0 v1=[first version number]\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\sa240\partightenfactor0
+\cf2 		v2=[second \cf2 version number\cf2 ]\
+\pard\tx720\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 \outl0\strokewidth0 \strokec2 	Version numbers should comply with Semantic Versioning 2.0, https://semver.org/\
+	i.e. 
+\f1 X.Y.Z where X, Y, and Z are non-negative integers, and MUST NOT contain leading zeroes. X is the major version, Y is the minor version, and Z is the patch version. Each element MUST increase numerically. For instance: 1.9.0 -> 1.10.0 -> 1.11.0.  In the Semantic Versioning standard, major, minor and patch must all be present but since the exercise example shows missing components, that is allowed.
+\f2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\sa240\partightenfactor0
+\ls2\ilvl0
+\f1 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}
+\f0\b \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Data Params
+\f1\b0 \uc0\u8232 None\u8232 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\sa240\partightenfactor0
+\ls2\ilvl0
+\f0\b \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Success Response:
+\f1\b0 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sl280\partightenfactor0
+\ls2\ilvl1
+\f0\b \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f3 \uc0\u9702 
+\f0 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Code:
+\f1\b0  200 \uc0\u8232 
+\f0\b Content:
+\f1\b0  
+\f2 \'93before\'94, \'93after\'94 or \'93equal\'94\
+\pard\tx720\tx1440\pardeftab720\sl280\partightenfactor0
+
+\f1 \cf2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\sa240\partightenfactor0
+\ls3\ilvl0
+\f0\b \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Error Response:
+\f1\b0 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sl280\partightenfactor0
+\ls3\ilvl1
+\f0\b \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f3 \uc0\u9702 
+\f0 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Code:
+\f1\b0  400 BAD REQUEST \uc0\u8232 
+\f0\b Content:
+\f1\b0  
+\f2 error message string
+\f1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\partightenfactor0
+\ls3\ilvl0\cf2 \uc0\u8232 \
+}
