@@ -19,14 +19,14 @@ i.e. X.Y.Z where X, Y, and Z are non-negative integers, and MUST NOT contain lea
 
 In the Semantic Versioning standard, major, minor and patch must all be present but since the exercise example shows missing components, that is allowed.
 
-##Data Params
+## Data Params
  None 
 ## Success Response:
 Code: 200  
 
 Content: “before”, “after” or “equal”
 
-##Error Response:
+## Error Response:
 Code: 400 BAD REQUEST  
 
 Content: error message string
